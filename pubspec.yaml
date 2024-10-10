@@ -1,0 +1,98 @@
+name: mcrypto
+description: "A new Flutter project."
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  http: ^1.1.0
+  intl: ^0.18.1
+  logger: ^2.0.1
+  url_launcher: ^6.1.12
+  flutter_native_splash: ^2.3.1
+  smooth_page_indicator: ^1.1.0
+  file_picker: ^6.2.0
+  image_picker: ^1.0.7
+  lottie: ^3.1.0
+  percent_indicator: ^4.2.3
+  flutter_chat_ui: ^1.6.12
+  csv: ^6.0.0
+  shared_preferences: ^2.2.2
+  shimmer: ^3.0.0
+  open_file: ^3.3.2
+  path: ^1.8.3
+  path_provider: ^2.0.15
+  pdf: ^3.10.4
+  permission_handler: ^10.4.3
+  dio: ^5.4.3+1
+  share_plus: ^9.0.0
+  intl_phone_field: ^3.1.0
+
+  iconsax: ^0.0.8
+  cupertino_icons: ^1.0.6
+
+  #state data_management:
+  get: ^4.6.5
+  get_storage: ^2.1.1
+
+  # Product Specific
+  readmore: ^2.2.0
+  carousel_slider: ^4.2.1
+  flutter_rating_bar: ^4.0.1
+  capped_progress_indicator: ^0.0.2
+  firebase_storage: ^11.6.0
+  connectivity_plus: ^5.0.2
+  firebase_core: ^2.27.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+  flutter_lints: ^3.0.0
+
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/logos/
+    - assets/images/
+    - assets/images/banners/
+    - assets/images/products/
+    - assets/images/content/
+    - assets/images/reviews/
+    - assets/icons/brands/
+    - assets/images/animations/
+    - assets/icons/payment_methods/
+    - assets/images/on_boarding_images/
+
+
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/Poppins-Light.ttf
+          weight: 300
+        - asset: assets/fonts/Poppins-BoldItalic.ttf
+          weight: 400
+        - asset: assets/fonts/Poppins-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/Poppins-Italic.ttf
+          style: italic
+        - asset: assets/fonts/Poppins-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Poppins-MediumItalic.ttf
+          weight: 500
+        - asset: assets/fonts/Poppins-SemiBold.ttf
+          weight: 300
+        - asset: assets/fonts/Poppins-Bold.ttf
+          weight: 800
